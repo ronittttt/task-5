@@ -20,6 +20,7 @@ Application Layer Protocols: Transport Layer Security (TLS) and Domain Name Syst
 | DNS      | 2       | 1.0%            | 90     | 0.1%          |
 | TCP      | 204     | 99.0%           | 66,161 | 94.9%         |
 | TLS      | 64      | 31.1%           | 66,167 | 94.9%         |
+
 Analysis
 
 The captured data represents standard web browsing behavior. Almost all packets were transmitted using TCP, the dominant transport protocol for reliable communication. A substantial portion of the TCP traffic was encrypted using TLS, indicating that most web activity occurred over HTTPS connections. DNS traffic, carried via UDP, was minimal but necessary for resolving domain names before establishing web sessions.
